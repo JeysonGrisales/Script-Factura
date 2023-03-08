@@ -74,6 +74,7 @@ CREATE TABLE Producto_FacturaV(
 )
 CREATE TABLE Producto_FacturaC(
 	cantidad int NOT NULL,
+	costo float NOT NULL,
 	valorTotal float,
 	idProducto varchar(15),
 	idFactura varchar(15),
